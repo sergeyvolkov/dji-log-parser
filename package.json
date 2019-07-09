@@ -12,8 +12,7 @@
     "url": "https://github.com/sergeyvolkov/dji-log-parser.git"
   },
   "dependencies": {
-    "bytebuffer": "^5.0.0",
-    "long": "^3.0.1"
+    "bytebuffer": "5.0.1"
   },
   "devDependencies": {
     "eslint": "6.0.1",
