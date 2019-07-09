@@ -1,16 +1,19 @@
 {
   "name": "dji-log-parser",
   "version": "0.0.4",
-  "description": "",
-  "author": "",
+  "description": "Parse DJI Flight Records",
+  "scripts": {
+    "eslint": "eslint lib index.js"
+  },
+  "author": "mikeemoo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeyvolkov/dji-log-parser.git"
+  },
   "dependencies": {
     "bytebuffer": "^5.0.0",
     "long": "^3.0.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mikeemoo/dji-log-parser.git"
   },
   "devDependencies": {
     "eslint": "6.0.1",
@@ -19,8 +22,5 @@
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.0"
-  },
-  "scripts": {
-    "eslint": "eslint lib index.js"
   }
 }
