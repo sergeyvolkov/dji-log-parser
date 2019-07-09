@@ -1,6 +1,6 @@
 {
   "name": "dji-log-parser",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Parse DJI Flight Records",
   "scripts": {
     "eslint": "eslint lib index.js"
